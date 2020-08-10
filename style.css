@@ -1,0 +1,92 @@
+body
+{
+	font-family: Open Sans;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.class1
+{
+	margin-top: 100px;
+	background: #FFFFFF;
+box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+	width: 550px;
+	height: 450px;
+	left: 444px;
+	top: 210px;
+}
+span
+{
+	margin-top: 170px;
+	width: 170px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color:black;
+}
+.signin
+{
+	display: flex;
+}
+.login
+{
+	font-size: 14px;
+	font-height:19px;
+}
+.signin1
+{ 
+	margin:10px;
+	width: 550px;
+	height: 429px;
+	background: rgba(241, 89, 42, 0.57);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 9px;
+}
+img 
+{
+	margin-top: 23px;
+	margin-left: 75px;
+}
+input
+{
+	height: 32px;
+	width: 180px;
+	margin-top: 22px;
+	margin-left: 75px;
+	background: rgba(229, 229, 229, 0.25);
+	border: 1px solid #BCBCBC;
+	box-sizing: border-box;
+	border-radius: 2px;
+
+}
+button
+{
+	color:white;
+	background-color: green;
+	height: 32px;
+	width: 180px;
+	margin-left: 75px;
+	margin-top: 25px;
+	border-style: none;
+	border-radius: 2px;
+
+}
+.sign
+{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	color: #343434;
+}
+.started
+{
+	margin-top: 6px;
+	font-size: 10px;
+	line-height: 12px;
+}
+
