@@ -4,10 +4,10 @@ function validation()
 	var pass=document.getElementById("pass").value;
 	var num=/^\d{10}$/;
 	var password=/\w/;
-	document.getElementById("errorMsg").style.visibility="hidden";
 	if((num.test(number) && password.test(pass)))
 	{
-		var madhu=setTimeout(myalert,100);
+		document.getElementById("errorMsg").style.visibility="hidden";
+		var alert=setTimeout(myalert,100);
 	}
 	else
 	{
