@@ -1,17 +1,27 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+
+}
 body
 {
 	font-family: Open Sans;
 	display: flex;
+	background-repeat: no-repeat;
 	align-content: center;
 	justify-content: center;
+	background: linear-gradient(90deg, #DCDFE5 0%, #E6E7ED 100%);
 }
 .class1
 {
 	margin-top: 100px;
 	background: #FFFFFF;
-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.25);
-border-radius: 9px;
-	width: 550px;
+	box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	width: 500px;
 	height: 450px;
 	left: 444px;
 	top: 210px;
@@ -22,8 +32,8 @@ span
 	width: 170px;
 	display: flex;
 	flex-direction: column;
-	text-align: center;
-}
+	text-align:center;
+} 
 a
 {
 	text-decoration: none;
@@ -32,20 +42,23 @@ a
 .signin
 {
 	display: flex;
+	width: 300px;
 }
 .login
 {
+	flex:3;
 	font-size: 14px;
 	font-height:19px;
 }
 .signin1
 { 
+	flex:2;
 	margin:10px;
-	width: 550px;
+	width: 750px;
 	height: 429px;
 	background: rgba(241, 89, 42, 0.57);
 	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
-	border-radius: 9px;
+	border-radius: 15px;
 }
 img 
 {
@@ -89,4 +102,10 @@ button
 	font-size: 10px;
 	line-height: 12px;
 }
+label
+{
+	margin-left: 80px;
+	font-size: 15px;
+}
+
 

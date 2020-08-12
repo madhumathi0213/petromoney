@@ -6,21 +6,23 @@
   	<meta name="viewport" content="width=device-width">
   	<link rel="stylesheet" href="style.css">
   	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  	<script src="script.js"></script>
 </head>
 <body>
-<div class="class1">
+	<div class="class1">
 	<div class="signin">
 		<div class="signin1">
   			<span><a class="sign" href="#">Sign In</a>
   				<a  class="started" href="#">Get Started...</a></span>
  		</div>
  		<div class="login">
- 			<img src="logo.png" alt="petromoney logo">
- 			<input type="text" name="" placeholder="Mobile Number">
- 			<input type="password" name="" placeholder="password">
- 			<button>Login</button>
+ 			<img src="image/logo.png" alt="petromoney logo">
+ 			<input id="mbnum" type="text" placeholder="Mobile Number">
+ 			<input id="pass" type="password" placeholder="password">
+ 			<button onclick="return validation()">Login</button>
+ 			<label id="errorMsg" style="color:red;visibility:hidden">*Invalid Login</label>
  		</div>
  	</div>
-</div>
+ </div>
 </body>
 </html>
