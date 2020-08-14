@@ -17,11 +17,12 @@
  		</div>
  		<div class="login">
  			<img src="image/logo.png" alt="petromoney logo">
- 			<form id="myform" onsubmit="return validation()">
- 				<input id="mbnum" type="text" placeholder="Mobile Number">
- 				<input id="pass" type="password" placeholder="password">
- 				<input type="submit" name="submit" id="submit" placeholder="Login">
- 				<label id="errorMsg" style="color:red;visibility:hidden">*Invalid Login</label>
+ 			<form action="#">
+ 			<!--<form id="myform" onsubmit="validation();return false">-->
+ 					<input id="mbnum" type="text" placeholder="Mobile Number">
+ 					<input id="pass" type="password" placeholder="password">
+ 					<button type="button" onclick="validation()">Login</button>
+ 					<label id="errorMsg" style="color:red;"></label>
  			</form>
  		</div>
  	</div>
