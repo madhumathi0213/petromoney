@@ -6,18 +6,12 @@ function validation()
 	var password=/\w/;
 	if((num.test(number) && password.test(pass)))
 	{
-		document.getElementById("errorMsg").style.visibility="hidden";
-		var alert=setTimeout(myalert(),100);
-		return true;
+		document.getElementById("errorMsg").innerHTML = " ";
+	setTimeout(function(){alert("success");	},1);
 	}
 	else
 	{
 	
-		document.getElementById("errorMsg").style.visibility="visible";	
-		return false;
+		document.getElementById("errorMsg").innerHTML = "*Invalid Login";
 	}
-}
-function myalert()
-{
-	alert("success");
 }
